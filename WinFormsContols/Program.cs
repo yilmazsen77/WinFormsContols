@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WinFormsContols.Dialog_boxes;
+using WinFormsContols.Message_box;
 
 namespace WinFormsContols
 {
@@ -17,7 +18,7 @@ namespace WinFormsContols
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Font_and_Color());
+            Application.Run(new MBox());
         }
     }
 }

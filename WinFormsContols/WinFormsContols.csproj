@@ -64,6 +64,12 @@
     <Compile Include="Dialog boxes\Image_save.Designer.cs">
       <DependentUpon>Image_save.cs</DependentUpon>
     </Compile>
+    <Compile Include="Message box\MBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message box\MBox.Designer.cs">
+      <DependentUpon>MBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Basic controls\Form1.resx">
