@@ -16,5 +16,19 @@ namespace WinFormsData
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'eticaretFilmDataSet.tbl_Filmler' table. You can move, or remove it, as needed.
+            this.tbl_FilmlerTableAdapter.Fill(this.eticaretFilmDataSet.tbl_Filmler);
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(comboBox1.SelectedItem.ToString());
+            MessageBox.Show(comboBox1.SelectedIndex.ToString());
+            MessageBox.Show(comboBox1.SelectedText.ToString());
+        }
     }
 }
